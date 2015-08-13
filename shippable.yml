@@ -1,0 +1,12 @@
+language: java
+
+jdk:
+   - oraclejdk8
+
+after_success:
+   - gradle assemble
+
+notifications:
+  email:
+    recipients:
+      - agualis@gmail.com
