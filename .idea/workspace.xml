@@ -88,11 +88,15 @@
           <file leaf-file-name="Alarm.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/tddmicroexercises/tirepressuremonitoringsystem/Alarm.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5300353">
-                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+                <state vertical-scroll-proportion="0.49646643">
+                  <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
                   <folding>
                     <element signature="e#277#278#0" expanded="true" />
                     <element signature="e#313#314#0" expanded="true" />
+                    <element signature="e#755#756#0" expanded="true" />
+                    <element signature="e#817#818#0" expanded="true" />
+                    <element signature="e#882#883#0" expanded="true" />
+                    <element signature="e#943#944#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -947,12 +951,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlarmShould - 2015.11.25 at 20h 16m 53s.xml">
-      <configuration name="AlarmShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AlarmShould - 2015.11.25 at 20h 17m 19s.xml">
-      <configuration name="AlarmShould" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AlarmShould - 2015.11.25 at 20h 20m 15s.xml">
       <configuration name="AlarmShould" configurationId="JUnit" />
     </history-entry>
@@ -975,6 +973,12 @@
       <configuration name="AlarmShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AlarmShould - 2015.11.25 at 20h 26m 58s.xml">
+      <configuration name="AlarmShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlarmShould - 2015.11.25 at 20h 29m 08s.xml">
+      <configuration name="AlarmShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AlarmShould - 2015.11.25 at 20h 29m 53s.xml">
       <configuration name="AlarmShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1069,6 +1073,10 @@
           <folding>
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1216,11 +1224,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tddmicroexercises/tirepressuremonitoringsystem/Alarm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5300353">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.49646643">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding>
             <element signature="e#277#278#0" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
           </folding>
         </state>
       </provider>

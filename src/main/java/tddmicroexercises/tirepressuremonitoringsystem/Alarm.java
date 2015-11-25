@@ -15,11 +15,22 @@ public class Alarm
     public void check()
     {
         double psiPressureValue = sensor.popNextPressurePsiValue();
-
-        if (psiPressureValue < LowPressureTreshold || HighPressureTreshold < psiPressureValue)
+        if (isPressureOverThreshold(psiPressureValue))
         {
             alarmOn = true;
         }
+    }
+
+    private boolean isPressureOverThreshold(double psiPressureValue) {
+        return isPressureTooLow(psiPressureValue) || isPressureTooHigh(psiPressureValue);
+    }
+
+    private boolean isPressureTooHigh(double psiPressureValue) {
+        return HighPressureTreshold < psiPressureValue;
+    }
+
+    private boolean isPressureTooLow(double psiPressureValue) {
+        return psiPressureValue < LowPressureTreshold;
     }
 
     public boolean isAlarmOn()
