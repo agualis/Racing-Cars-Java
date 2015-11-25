@@ -17,12 +17,12 @@ public class AlarmShould {
     private static final double OK_PRESSURE_VALUE = 20;
     private static final double HIGH_PRESSURE_VALUE = 22;
     private static final double LOW_PRESSURE_VALUE = 16;
-    private TestableAlarm alarm;
+    private Alarm alarm;
     @Mock Sensor sensor;
 
     @Before
     public void init(){
-        alarm = new TestableAlarm(sensor);
+        alarm = new Alarm(sensor);
     }
 
     @Test
@@ -51,19 +51,5 @@ public class AlarmShould {
         alarm.check();
 
         assertThat(alarm.isAlarmOn(), is(true));
-    }
-
-    private class TestableAlarm extends Alarm{
-        private double pressure;
-        private Sensor sensor;
-
-        public TestableAlarm(Sensor sensor) {
-            this.sensor = sensor;
-        }
-
-        @Override
-        protected double popNextPressurePsiValue() {
-            return sensor.popNextPressurePsiValue();
-        }
     }
 }
