@@ -17,6 +17,7 @@ public class AlarmShould {
     private static final double OK_PRESSURE_VALUE = 20;
     private static final double HIGH_PRESSURE_VALUE = 22;
     private static final double LOW_PRESSURE_VALUE = 16;
+
     private Alarm alarm;
     @Mock Sensor sensor;
 
