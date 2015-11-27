@@ -10,7 +10,7 @@ import org.junit.Test;
 public class HtmlPagesConverterTest {
     @Test
     public void foo() throws IOException {
-        HtmlPagesConverter converter = new HtmlPagesConverter("foo");
+        HtmlPagesConverter converter = new HtmlPagesConverter("save_file_name");
         assertEquals("fixme", converter.getFilename());
     }
 }
