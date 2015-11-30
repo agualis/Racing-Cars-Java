@@ -16,6 +16,6 @@ public class HtmlTextConverterShould {
     @Test public void
     convertFromFileToHtml() {
 
-        MatcherAssert.assertThat(, is());
+        //MatcherAssert.assertThat(, is());
     }
 }
